@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakestore AJAX app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fakestore tuotehaku</h1>
+        <!--hakulomake: kategoria, hakusana ja nappi-->
+        <div class="controls">
+            <!--valikko eri kategorioille, ladataan dynaamisesti-->
+            <select id="categorySelect">
+                <option value="">Kaikki kategoriat</option>
+            </select>
+            <!--hakukenttä tuotteiden ninmellä hakemiseen-->
+            <input type="text" id="searchInput" placeholder="Hae tuotteita...">
+            <!--hakunappi-->
+            <button id="searchBtn">Hae</button>
+        </div>
+    </header>
+    <!--tänne näytetään tuotteet js-->
+    <main>
+        <div id="productsContainer" class="products-grid">
+            <!--tuotekortit lisätään tänne js avulla-->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

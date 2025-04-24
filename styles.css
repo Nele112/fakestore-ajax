@@ -1,0 +1,81 @@
+/*perusnollaus*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*taustaväri ja fontti */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px; /*vähän ilma reunoille*/
+}
+
+/*header ja hakuelementit */
+header {
+    text-align: center;
+    margin-bottom: 20px; /*väli yläosan ja sisällön välillä*/
+}
+
+/*hakuvalikko, tekstikenttä ja nappi - rivissä keskitetysti*/
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /*väli komponenttien väliin*/
+    flex-wrap: wrap; /* rivittyvät myös pienille näytöille*/
+    margin-top: 10px;
+}
+
+/* pudotusvalikko, hakukenttä ja nappi - yhteinen tyyli*/
+select, input, button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*tuotteiden ruudukko - grid-layout */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /*väli korttien välille*/
+}
+
+/*tuotekortin tyyli - laatikkomuoto */
+.product-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /*kevyt varjo*/
+    display: flex;
+    flex-direction: column;
+}
+
+/* tuotekuvan tyyli */
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* tuotteem otsikko */
+.product-card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/*tuotteen kuvaus ja hintarivi*/
+.product-card p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    flex-grow: 1; /*kasvaa tarvittaessa täyttämään tilaa */
+}
+
+/*hintarivin korostus */
+.product-card .price {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}

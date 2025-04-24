@@ -30,7 +30,7 @@ Yksi lisähuomio - CSS-tiedostossa käytin * { box-sizing: border-box; } -sään
 ## Mitä opin
 
 - Miten REST API toimii käytännössä
-- Miten XMLHttpRequest toimii ja miten se eroaa fetch-tekniikasta
+- Miten XMLHttpRequest toimii
 - Dynaamisen DOM-manipuloinnin perusteet
 - Tapahtumien (addEventListener) lisääminen ohjelmallisesti
 - Tiedon suodattaminen ja tulosten näyttäminen hakuehdoilla
@@ -38,10 +38,9 @@ Yksi lisähuomio - CSS-tiedostossa käytin * { box-sizing: border-box; } -sään
 
 ## Linkit
 
-- [Sovellus Netlifyssa](https://)
+- [Sovellus Netlifyssa](https://ajax-shop-demo.netlify.app/)
 
 ## Toteutus
 
 Tämä oli oppimisprojekti, jossa tein itse HTML:n, CSS:n ja JavaScriptin toiminnallisuudet, mutta sain paljon selitys- ja kommenttiapua ChatGPT:ltä. En käyttänyt sitä valmiin koodin tuottamiseen, vaan apuna ymmärtämisessä ja selkeyttämisessä, jotta voisin oikeasti oppia. Vähän ehkä liiankin hyvä tuli opiskelijatyöksi, mutta opin joka rivistä ja se oli minulle tärkeintä.
 
-Kiitos kurssista ja palautteesta!
